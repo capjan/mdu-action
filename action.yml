@@ -17,7 +17,7 @@ inputs:
   mdu-version:
     description: MDU Docker image tag to use.
     required: false
-    default: '5.1.0'
+    default: latest
 
 outputs:
   page_url:

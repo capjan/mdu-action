@@ -5,7 +5,7 @@ set -euo pipefail
 : "${DOCS_PATH:?DOCS_PATH is required}"
 : "${OUTPUT_PATH:?OUTPUT_PATH is required}"
 
-MDU_VERSION="${MDU_VERSION:-5.1.0}"
+MDU_VERSION="${MDU_VERSION:-latest}"
 args=(render "$DOCS_PATH" "$OUTPUT_PATH")
 
 if [[ -n "${EDIT_PAGE_ROOT:-}" ]]; then

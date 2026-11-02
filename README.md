@@ -46,6 +46,6 @@ The job must run on a Linux runner with Docker installed. GitHub-hosted `ubuntu-
 | `docs-path` | `docs` | Folder containing Markdown documentation. |
 | `output-path` | `site` | Folder for the generated site. |
 | `edit-page-root` | empty | Optional URL to the repository folder where the Markdown files can be edited. |
-| `mdu-version` | `5.1.0` | MDU Docker image tag to use. |
+| `mdu-version` | `latest` | MDU Docker image tag to use, for example `5.1.0`. |
 
 The action returns the deployed site URL as the `page_url` output.
